@@ -1,0 +1,62 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "srgb:0.40229,0.99938,1.00000,1.00000",
+      "extended-srgb:0.00000,0.47843,1.00000,1.00000"
+    ]
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "blend-mode" : "lighten",
+          "fill" : {
+            "automatic-gradient" : "extended-srgb:0.15686,0.80392,0.25490,1.00000"
+          },
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "0_splash.png",
+          "name" : "0_splash",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              188.6875,
+              180.796875
+            ]
+          }
+        },
+        {
+          "blend-mode" : "normal",
+          "fill" : {
+            "automatic-gradient" : "srgb:1.00000,0.38462,0.17361,1.00000"
+          },
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "1_kettlebell.png",
+          "name" : "1_kettlebell",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              2.59375,
+              -7.84375
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
